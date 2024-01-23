@@ -1,0 +1,62 @@
+﻿
+@model ResultFeatureDto
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h4 class="page-title ms-3">Öne Çıkan İşlemleri</h4>
+<div class="row">
+	<div class="col-md-12">
+		<div class="card">
+			<div class="card-header">
+				<div class="card-title">Öne Çıkan Listesi</div>
+			</div>
+			<div class="card-body">
+				<div class="card-sub">
+					Öne Çıkan ile işlemleri aşağıdan gerçekleştirebilirsiniz.
+				</div>
+				<table class="table mt-3">
+					<thead>
+						<tr>
+							<th scope="col">Başlık 1</th>
+							<th scope="col">Açıklama 1</th>
+							<th scope="col">Başlık 2</th>
+							<th scope="col">Açıklama 2</th>
+							<th scope="col">Başlık 3</th>
+							<th scope="col">Açıklama 3</th>
+							<th scope="col">Güncelle</th>
+						</tr>
+					</thead>
+					<tbody>
+						
+							<tr>
+							<td>@Model.Title1</td>
+								
+								<td>@Model.Description1</td>
+							
+								
+								
+							<td>@Model.Title2</td>
+								
+								<td>@Model.Description2</td>
+								
+								
+								
+							<td>@Model.Title3</td>
+							
+								<td>@Model.Description3</td>
+								
+								
+								<td><a href="/AdminFeature/UpdateFeature/@Model.FeatureID/" class="btn btn-outline-warning">Düzenle</a></td>
+							</tr>
+						
+
+
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</div>

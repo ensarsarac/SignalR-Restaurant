@@ -1,0 +1,75 @@
+﻿
+@model List<ResultDiscountDto>
+
+@{
+	ViewData["Title"] = "Index";
+	Layout = "~/Views/Shared/_AdminLayout.cshtml";
+	int count = 0;
+}
+
+<h4 class="page-title ms-3">İndirim İşlemleri</h4>
+<div class="row">
+	<div class="col-md-12">
+		<div class="card">
+			<div class="card-header">
+				<div class="card-title">İndirim Listesi</div>
+			</div>
+			<div class="card-body">
+				<div class="card-sub">
+					Günün İndirimli Ürünleri Aşağıda Yer Almaktadır. Tema Bütünlüğü İçin <strong>2 Adet</strong> İndirimli Ürün Seçiniz.
+				</div>
+				<table class="table mt-3">
+					<thead>
+						<tr>
+							<th scope="col">#</th>
+							<th scope="col">İndirim Başlığı</th>
+							<th scope="col">İndirim Miktarı</th>
+							<th scope="col">Resim</th>
+							<th scope="col">Açıklama</th>
+							<th scope="col">Durum</th>
+							<th scope="col">Aktif Yap</th>
+							<th scope="col">Pasif Yap</th>
+							<th scope="col">Sil</th>
+							<th scope="col">Güncelle</th>
+						</tr>
+					</thead>
+					<tbody>
+						@foreach (var item in Model)
+						{
+							count++;
+							<tr>
+									<th>@count</th>
+									<td>@item.Title</td>
+									<td>@item.Amount</td>
+									<td>@item.ImageUrl</td>
+								@if (item.Description.Length <70)
+								{
+											<td>@item.Description</td>
+								}
+								else
+								{
+									<td>@item.Description.Substring(0,70) ...</td>
+								}
+								@if(item.Status)
+								{
+									<td>Aktif</td>
+								}
+								else
+								{
+									<td>Pasif</td>
+								}
+								<td><a href="/AdminDiscount/ChangeStatusActive/@item.DiscountID/" class="btn btn-outline-info">Aktif</a></td>
+								<td><a href="/AdminDiscount/ChangeStatusPassive/@item.DiscountID/" class="btn btn-outline-dark">Pasif</a></td>
+								<td><a href="/AdminDiscount/DeleteDiscount/@item.DiscountID/" class="btn btn-outline-danger">Sil</a></td>
+								<td><a href="/AdminDiscount/UpdateDiscount/@item.DiscountID/" class="btn btn-outline-warning">Düzenle</a></td>
+								</tr>
+						}
+
+
+					</tbody>
+				</table>
+				<a href="/AdminDiscount/CreateDiscount/" class="btn btn-outline-primary">Yeni İndirim Oluştur</a>
+			</div>
+		</div>
+	</div>
+</div>

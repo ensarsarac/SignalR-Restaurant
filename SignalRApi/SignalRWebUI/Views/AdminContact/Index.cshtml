@@ -1,0 +1,110 @@
+﻿
+@model ResultContactDto
+
+@{
+	ViewData["Title"] = "Index";
+	Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h4 class="page-title ms-3">İletişim İşlemleri</h4>
+<div class="row">
+	<div class="col-md-12">
+		<div class="card">
+			<div class="card-header">
+				<div class="card-title">İletişim Listesi</div>
+			</div>
+			<div class="card-body">
+				<div class="card-sub">
+					İletişim ile işlemleri aşağıdan gerçekleştirebilirsiniz.<strong>Tema bütünlüğü için sadece 1 tane iletişim alanı oluşturmayı unutmayın.</strong>
+				</div>
+				<table class="table mt-3">
+					<thead>
+						<tr>
+							<th scope="col">Lokasyon</th>
+							<th scope="col">Telefon</th>
+							<th scope="col">Mail</th>
+							<th scope="col">Açıklama</th>
+							<th scope="col">Güncelle</th>
+						</tr>
+					</thead>
+					<tbody>
+
+						<tr>
+							<td>@Model.Location</td>
+							<td>@Model.PhoneNumber</td>
+							<td>@Model.Mail</td>
+							@if(Model.FooterDescription.Length < 70)
+							{
+								<td>@Model.FooterDescription</td>
+							}
+							else
+							{
+								<td>@Model.FooterDescription.Substring(0,70) ...</td>
+							}
+
+							<td><button type="button" data-toggle="modal" data-target="#Modal1" class="btn btn-outline-warning">Güncelle</button></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="modal" id="Modal1" tabindex="-1">
+  <div class="modal-dialog">
+	<div class="modal-content">
+	  <div class="modal-header">
+		<h5 class="modal-title">İletişim Düzenle</h5>
+		<button type="button" class="btn-close" data-dismiss="modal" aria-label="Kapat"></button>
+	  </div>
+			<form method="post" action="/AdminContact/UpdateContact/">
+				<input type="hidden" asp-for="ContactID">
+	  <div class="modal-body">
+			<div class="form-group">
+				<label class="form-label">Lokasyon Giriniz:</label>
+				<input type="text" asp-for="Location" class="form-control" required />
+			</div>
+					<div class="form-group">
+						<label class="form-label">Telefon Giriniz:</label>
+						<input type="text" asp-for="PhoneNumber" class="form-control" required />
+					</div>
+					<div class="form-group">
+						<label class="form-label">Mail Giriniz:</label>
+						<input type="text" asp-for="Mail" class="form-control" required />
+					</div>
+					<div class="form-group">
+						<label class="form-label">Footer Alanı Başlık Giriniz:</label>
+						<input type="text" asp-for="FooterTitle" class="form-control" required />
+					</div>
+					<div class="form-group">
+						<label class="form-label">Açılış Saati Giriniz:</label>
+						<input type="text" asp-for="OpenHours" class="form-control" required />
+					</div>
+					<div class="form-group">
+						<label class="form-label">Kapanış Saati Giriniz:</label>
+						<input type="text" asp-for="CloseHours" class="form-control" required />
+					</div>
+					<div class="form-group">
+						<label class="form-label">Açılış Saati Başlık:</label>
+						<input type="text" asp-for="OpenHoursTitle" class="form-control" required />
+					</div>
+					<div class="form-group">
+						<label class="form-label">Açılış Saati Açıklama:</label>
+						<input type="text" asp-for="OpenHoursDescription" class="form-control" required />
+					</div>
+					<div class="form-group">
+						<label class="form-label">Açıklama Giriniz:</label>
+						<textarea class="form-control" asp-for="FooterDescription" cols="5" rows="6" required >@Model.FooterDescription </textarea>
+					</div>
+					
+	  </div>
+	  <div class="modal-footer">
+		<button type="button" class="btn btn-secondary" data-dismiss="modal">Kapat</button>
+		<button type="submit" class="btn btn-primary">Güncelle</button>
+	  </div>
+		</form>
+  </div>
+  </div>
+</div>

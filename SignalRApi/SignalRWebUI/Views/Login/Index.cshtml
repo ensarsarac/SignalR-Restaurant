@@ -1,0 +1,44 @@
+﻿
+@model LoginDto
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Form-v6 by Colorlib</title>
+	<!-- Mobile Specific Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- Font-->
+	<!-- Main Style Css --><link href="~/colorlib-regform-32/css/nunito-font.css" rel="stylesheet" />
+	<link href="~/colorlib-regform-32/css/style.css" rel="stylesheet" />
+</head>
+<body class="form-v6">
+	<div class="page-content">
+		<div class="form-v6-content">
+			<div class="form-left">
+				<img src="~/colorlib-regform-32/images/Sauce1.jpg" alt="form" style="width:584px; height:100%">
+			</div>
+			<form class="form-detail" method="post">
+				<h2>Giriş Formu</h2>
+				
+					<div style="color:red;" asp-validation-summary="ModelOnly"></div>
+			
+				<div class="form-row">
+					<input type="text" asp-for="username" class="input-text" placeholder="Kullanıcı Adınız" required>
+				</div>
+				<div class="form-row">
+					<input type="password" asp-for="password" class="input-text" placeholder="Şifreniz" required>
+				</div>
+				
+				<div class="form-row-last">
+					<input type="submit" class="register" value="Giriş Yap">
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>

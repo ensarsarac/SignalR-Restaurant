@@ -1,0 +1,62 @@
+﻿
+@model List<ResultProductDto>
+
+@{
+	ViewData["Title"] = "Index";
+	Layout = "~/Views/Shared/_AdminLayout.cshtml";
+	int count = 0;
+}
+
+<h4 class="page-title ms-3">Ürünler İşlemleri</h4>
+<div class="row">
+	<div class="col-md-12">
+		<div class="card">
+			<div class="card-header">
+				<div class="card-title">Ürün Listesi</div>
+			</div>
+			<div class="card-body">
+				<div class="card-sub">
+					Ürün ile işlemleri aşağıdan gerçekleştirebilirsiniz.
+				</div>
+				<table class="table mt-3">
+					<thead>
+						<tr>
+							<th scope="col">#</th>
+							<th scope="col">Ürün Adı</th>
+							<th scope="col">Fiyat</th>
+							<th scope="col">Kategori</th>
+							<th scope="col">Durum</th>
+							<th scope="col">Sil</th>
+							<th scope="col">Güncelle</th>
+						</tr>
+					</thead>
+					<tbody>
+						@foreach (var item in Model)
+						{
+							count++;
+							<tr>
+								<th>@count</th>
+								<td>@item.ProductName</td>
+								<td>@item.Price</td>
+								<td>@item.CategoryName</td>
+								@if (item.ProductStatus)
+								{
+									<td><span class="badge badge-success">Aktif</span></td>
+								}
+								else
+								{
+									<td><span class="badge badge-danger">Pasif</span></td>
+								}
+								<td><a href="/AdminProduct/DeleteProduct/@item.ProductID/" class="btn btn-outline-danger">Sil</a></td>
+								<td><a href="/AdminProduct/UpdateProduct/@item.ProductID/" class="btn btn-outline-warning">Düzenle</a></td>
+							</tr>
+						}
+
+
+					</tbody>
+				</table>
+				<a href="/AdminProduct/CreateProduct/" class="btn btn-outline-primary">Yeni Ürün Ekle</a>
+			</div>
+		</div>
+	</div>
+</div>

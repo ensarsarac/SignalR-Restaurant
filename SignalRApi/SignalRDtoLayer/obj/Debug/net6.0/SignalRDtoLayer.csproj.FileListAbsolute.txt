@@ -1,0 +1,15 @@
+C:\Users\Ensar\Desktop\C#\SignalRApi\SignalRDtoLayer\bin\Debug\net6.0\SignalRDtoLayer.deps.json
+C:\Users\Ensar\Desktop\C#\SignalRApi\SignalRDtoLayer\bin\Debug\net6.0\SignalRDtoLayer.dll
+C:\Users\Ensar\Desktop\C#\SignalRApi\SignalRDtoLayer\bin\Debug\net6.0\SignalRDtoLayer.pdb
+C:\Users\Ensar\Desktop\C#\SignalRApi\SignalRDtoLayer\obj\Debug\net6.0\SignalRDtoLayer.csproj.AssemblyReference.cache
+C:\Users\Ensar\Desktop\C#\SignalRApi\SignalRDtoLayer\obj\Debug\net6.0\SignalRDtoLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ensar\Desktop\C#\SignalRApi\SignalRDtoLayer\obj\Debug\net6.0\SignalRDtoLayer.AssemblyInfoInputs.cache
+C:\Users\Ensar\Desktop\C#\SignalRApi\SignalRDtoLayer\obj\Debug\net6.0\SignalRDtoLayer.AssemblyInfo.cs
+C:\Users\Ensar\Desktop\C#\SignalRApi\SignalRDtoLayer\obj\Debug\net6.0\SignalRDtoLayer.csproj.CoreCompileInputs.cache
+C:\Users\Ensar\Desktop\C#\SignalRApi\SignalRDtoLayer\obj\Debug\net6.0\SignalRDtoLayer.dll
+C:\Users\Ensar\Desktop\C#\SignalRApi\SignalRDtoLayer\obj\Debug\net6.0\refint\SignalRDtoLayer.dll
+C:\Users\Ensar\Desktop\C#\SignalRApi\SignalRDtoLayer\obj\Debug\net6.0\SignalRDtoLayer.pdb
+C:\Users\Ensar\Desktop\C#\SignalRApi\SignalRDtoLayer\obj\Debug\net6.0\ref\SignalRDtoLayer.dll
+C:\Users\Ensar\Desktop\C#\SignalRApi\SignalRDtoLayer\bin\Debug\net6.0\SignalREntityLayer.dll
+C:\Users\Ensar\Desktop\C#\SignalRApi\SignalRDtoLayer\bin\Debug\net6.0\SignalREntityLayer.pdb
+C:\Users\Ensar\Desktop\C#\SignalRApi\SignalRDtoLayer\obj\Debug\net6.0\SignalRDtoLayer.csproj.CopyComplete

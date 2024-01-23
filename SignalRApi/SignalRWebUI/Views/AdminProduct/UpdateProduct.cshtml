@@ -1,0 +1,79 @@
+﻿@model SignalRWebUI.Dtos.ProductDtos.UpdateProductDto
+
+@{
+	ViewData["Title"] = "UpdateProduct";
+	Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<h4 class="page-title">Ürün İşlemleri </h4>
+<div class="row">
+	<div class="col-md-12">
+		<form method="post">
+			<input type="hidden" asp-for="@Model.ProductID"/>
+			<div class="card">
+				<div class="card-header">
+					<div class="card-title">Ürün Güncelle</div>
+				</div>
+				<div class="card-body">
+					<div class="form-group mb-2">
+						<label>Ürün Adı: </label>
+						<input type="text" asp-for="@Model.ProductName" class="form-control">
+					</div>
+
+					<div class="form-group mb-2">
+						<label>Ürün Fiyatı: </label>
+						<input type="text" asp-for="@Model.Price" class="form-control">
+					</div>
+
+
+					<div class="form-group mb-2">
+						<label>Ürün Kategorisi: </label>
+						@Html.DropDownListFor(x=>x.CategoryID, (SelectList) ViewBag.categories,"Seçiniz",new {@class="form-control"})
+					</div>
+					<div class="form-group mb-2">
+						<label>Ürün Resim URL: </label>
+						<input type="text" asp-for="@Model.ImageUrl" class="form-control">
+					</div>
+
+					<div class="form-group mb-2">
+						<label>Ürün Resim URL: </label>
+						<textarea asp-for="@Model.Description" cols="10" rows="6" class="form-control"> </textarea>
+					</div>
+
+					<div class="form-check">
+						<label>Ürün Durumu:</label><br />
+
+						@if (Model.ProductStatus)
+						{
+							<label class="form-radio-label">
+								<input class="form-radio-input" type="radio" name="ProductStatus" value="true" checked="">
+								<span class="form-radio-sign">Aktif</span>
+							</label>
+							<label class="form-radio-label ml-3">
+							<input class="form-radio-input" type="radio" name="ProductStatus" value="false">
+							<span class="form-radio-sign">Pasif</span>
+						</label>
+						}
+						else
+						{
+							<label class="form-radio-label">
+								<input class="form-radio-input" type="radio" name="ProductStatus" value="true" >
+								<span class="form-radio-sign">Aktif</span>
+							</label>
+							<label class="form-radio-label ml-3">
+							<input class="form-radio-input" type="radio" name="ProductStatus" value="false" checked>
+							<span class="form-radio-sign">Pasif</span>
+						</label>
+						}
+						
+					</div>
+
+
+
+				</div>
+				<div class="card-action">
+					<button type="submit" class="btn btn-primary">Ürün Güncelle</button>
+				</div>
+			</div>
+		</form>
+	</div>
+</div>

@@ -1,0 +1,77 @@
+﻿
+@model ResultAboutDto
+
+@{
+	ViewData["Title"] = "Index";
+	Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h4 class="page-title ms-3">Hakkımızda İşlemleri</h4>
+<div class="row">
+<div class="col-md-12">
+	<div class="card">
+		<div class="card-header">
+				<div class="card-title">Hakkımızda Listesi</div>
+		</div>
+		<div class="card-body">
+			<div class="card-sub">
+					Hakkımızda ile işlemleri aşağıdan gerçekleştirebilirsiniz.
+			</div>
+			<table class="table mt-3">
+				<thead>
+					<tr>
+						<th scope="col">Başlık</th>
+						<th scope="col">Açıklama</th>
+						<th scope="col">Görsel</th>
+						<th scope="col">Güncelle</th>
+					</tr>
+				</thead>
+				<tbody>
+						
+							<tr>
+								<td>@Model.Title</td>
+								<td>@Model.Description</td>
+								<td>@Model.ImageUrl</td>
+							<td><button type="button" data-toggle="modal" data-target="#Modal1" class="btn btn-outline-warning">Güncelle</button></td>
+							</tr>
+						
+
+
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>
+</div>
+
+<div class="modal" id="Modal1" tabindex="-1">
+  <div class="modal-dialog">
+	<div class="modal-content">
+	  <div class="modal-header">
+		<h5 class="modal-title">Hakkımzda Düzenle</h5>
+		<button type="button" class="btn-close" data-dismiss="modal" aria-label="Kapat"></button>
+	  </div>
+			<form method="post" action="/AdminAbout/UpdateAbout/">
+				<input type="hidden" asp-for="@Model.AboutID">
+	  <div class="modal-body">
+			<div class="form-group">
+				<label class="form-label">Başlık Giriniz:</label>
+				<input type="text" asp-for="@Model.Title" class="form-control" required />
+			</div>
+					<div class="form-group">
+						<label class="form-label">Açıklama Giriniz:</label>
+						<textarea class="form-control" asp-for="@Model.Description" cols="5" rows="6" required >@Model.Description </textarea>
+					</div>
+					<div class="form-group">
+						<label class="form-label">Resim Giriniz:</label>
+				<input type="text" asp-for="@Model.ImageUrl" class="form-control" required />
+			</div>
+	  </div>
+	  <div class="modal-footer">
+		<button type="button" class="btn btn-secondary" data-dismiss="modal">Kapat</button>
+		<button type="submit" class="btn btn-primary">Güncelle</button>
+	  </div>
+		</form>
+  </div>
+  </div>
+</div>

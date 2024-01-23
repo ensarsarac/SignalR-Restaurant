@@ -1,0 +1,43 @@
+﻿
+@model CreateTestimonialDto
+
+@{
+    ViewData["Title"] = "CreateTestimonial";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h4 class="page-title">Referans İşlemleri </h4>
+<div class="row">
+	<div class="col-md-12">
+		<form method="post">
+		<div class="card">
+			<div class="card-header">
+					<div class="card-title">Yeni Referans Girişi</div>
+			</div>
+			<div class="card-body">
+				<div class="form-group">
+					<label for="categoryName">Müşterinin Adını Giriniz: </label>
+					<input type="text" asp-for="@Model.Name" class="form-control">
+				</div>
+					<div class="form-group">
+						<label for="categoryName">Müşterinin Ünvanını Giriniz: </label>
+						<input type="text" asp-for="@Model.Title" class="form-control" >
+					</div>
+					<div class="form-group">
+						<label for="categoryName">Resim Yolu Giriniz: </label>
+						<input type="text" asp-for="@Model.ImageUrl" class="form-control" >
+					</div>
+					<div class="form-group">
+						<label for="categoryName">Müşteri Yorumu Giriniz: </label>
+						<textarea asp-for="@Model.Comment" class="form-control"> </textarea>
+					</div>
+
+			</div>
+			<div class="card-action">
+					<button type="submit" class="btn btn-primary">Referans Ekle</button>
+			</div>
+		</div>
+		</form>
+	</div>
+</div>
+

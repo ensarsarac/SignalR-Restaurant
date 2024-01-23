@@ -1,0 +1,12 @@
+C:\Users\Ensar\Desktop\C#\SignalRApi\SignalREntityLayer\obj\Debug\net6.0\SignalREntityLayer.csproj.AssemblyReference.cache
+C:\Users\Ensar\Desktop\C#\SignalRApi\SignalREntityLayer\obj\Debug\net6.0\SignalREntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ensar\Desktop\C#\SignalRApi\SignalREntityLayer\obj\Debug\net6.0\SignalREntityLayer.AssemblyInfoInputs.cache
+C:\Users\Ensar\Desktop\C#\SignalRApi\SignalREntityLayer\obj\Debug\net6.0\SignalREntityLayer.AssemblyInfo.cs
+C:\Users\Ensar\Desktop\C#\SignalRApi\SignalREntityLayer\obj\Debug\net6.0\SignalREntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\Ensar\Desktop\C#\SignalRApi\SignalREntityLayer\bin\Debug\net6.0\SignalREntityLayer.deps.json
+C:\Users\Ensar\Desktop\C#\SignalRApi\SignalREntityLayer\bin\Debug\net6.0\SignalREntityLayer.dll
+C:\Users\Ensar\Desktop\C#\SignalRApi\SignalREntityLayer\bin\Debug\net6.0\SignalREntityLayer.pdb
+C:\Users\Ensar\Desktop\C#\SignalRApi\SignalREntityLayer\obj\Debug\net6.0\SignalREntityLayer.dll
+C:\Users\Ensar\Desktop\C#\SignalRApi\SignalREntityLayer\obj\Debug\net6.0\refint\SignalREntityLayer.dll
+C:\Users\Ensar\Desktop\C#\SignalRApi\SignalREntityLayer\obj\Debug\net6.0\SignalREntityLayer.pdb
+C:\Users\Ensar\Desktop\C#\SignalRApi\SignalREntityLayer\obj\Debug\net6.0\ref\SignalREntityLayer.dll

@@ -1,0 +1,22 @@
+﻿@{
+	Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+
+@await Component.InvokeAsync("HeadComponent")
+<body class="sub_page">
+	<div class="hero_area">
+		<div class="bg-box">
+			<img src="~/feane-1.0.0/images/hero-bg.jpg" alt="">
+		</div>
+		@await Component.InvokeAsync("NavbarComponent")
+	</div>
+	@RenderBody()
+	@await Component.InvokeAsync("FooterComponent")
+	@await Component.InvokeAsync("ScriptsComponent")
+
+</body>
+
+</html>

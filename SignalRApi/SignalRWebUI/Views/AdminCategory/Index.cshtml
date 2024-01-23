@@ -1,0 +1,50 @@
+﻿
+@model List<ResultCategoryDto>
+
+@{
+	ViewData["Title"] = "Index";
+	Layout = "~/Views/Shared/_AdminLayout.cshtml";
+	int count = 0;
+}
+<h4 class="page-title ms-3">Kategoriler İşlemleri</h4>
+<div class="row">
+<div class="col-md-12">
+	<div class="card">
+		<div class="card-header">
+			<div class="card-title">Kategori Listesi</div>
+		</div>
+		<div class="card-body">
+			<div class="card-sub">
+				Kategori ile işlemleri aşağıdan gerçekleştirebilirsiniz.
+			</div>
+			<table class="table mt-3">
+				<thead>
+					<tr>
+						<th scope="col">#</th>
+						<th scope="col">Kategori Adı</th>
+						<th scope="col">Durum</th>
+						<th scope="col">Sil</th>
+						<th scope="col">Güncelle</th>
+					</tr>
+				</thead>
+				<tbody>
+					@foreach (var item in Model)
+					{
+							count++;
+							<tr>
+							<th>@count</th>
+							<td>@item.Name</td>
+							<td>@item.Status</td>
+							<td><a href="/AdminCategory/DeleteCategory/@item.CategoryID/" class="btn btn-outline-danger">Sil</a></td>
+								<td><a href="/AdminCategory/GetCategory/@item.CategoryID/" class="btn btn-outline-warning">Düzenle</a></td>
+						</tr>
+					}
+					
+				
+				</tbody>
+			</table>
+				<a href="/AdminCategory/CreateCategory/" class="btn btn-outline-primary">Yeni Kategori Ekle</a>
+		</div>
+	</div>
+</div>
+</div>

@@ -1,0 +1,48 @@
+﻿
+@model CreateFeatureDto
+
+@{
+    ViewData["Title"] = "CreateFeature";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<h4 class="page-title">Öne Çıkan İşlemleri </h4>
+<div class="row">
+	<div class="col-md-12">
+		<form method="post">
+		<div class="card">
+			<div class="card-header">
+				<div class="card-title">Yeni Öne Çıkan Girişi</div>
+			</div>
+			<div class="card-body">
+				<div class="form-group">
+					<label for="categoryName">Başlık 1 Giriniz: </label>
+					<input type="text" asp-for="@Model.Title1" class="form-control">
+				</div>
+					<div class="form-group">
+						<label for="categoryName">Açıklama 1 Giriniz: </label>
+						<input type="text" asp-for="@Model.Description1" class="form-control" >
+					</div>
+					<div class="form-group">
+						<label for="categoryName">Başlık 2 Giriniz: </label>
+						<input type="text" asp-for="@Model.Title2" class="form-control">
+					</div>
+					<div class="form-group">
+						<label for="categoryName">Açıklama 2 Giriniz: </label>
+						<input type="text" asp-for="@Model.Description2" class="form-control" >
+					</div>
+					<div class="form-group">
+						<label for="categoryName">Başlık 3 Giriniz: </label>
+						<input type="text" asp-for="@Model.Title3" class="form-control" >
+					</div>
+					<div class="form-group">
+						<label for="categoryName">Açıklama 3 Giriniz: </label>
+						<input type="text" asp-for="@Model.Description3" class="form-control">
+					</div>
+			</div>
+			<div class="card-action">
+				<button type="submit" class="btn btn-primary">Öne Çıkan Ekle</button>
+			</div>
+		</div>
+		</form>
+	</div>
+</div>

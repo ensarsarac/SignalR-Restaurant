@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+
+@await Component.InvokeAsync("HeadComponent")
+<body>
+
+  <div class="hero_area">
+    <div class="bg-box">
+      <img src="~/feane-1.0.0/images/hero-bg.jpg" alt="">
+    </div>
+        @await Component.InvokeAsync("NavbarComponent")
+        @await Component.InvokeAsync("_CarouselComponent")
+  </div>
+    @await Component.InvokeAsync("_DiscountComponent")
+    @await Component.InvokeAsync("_OurMenuComponent")
+    @await Component.InvokeAsync("_AboutComponent")
+    @await Component.InvokeAsync("_MessageComponent")
+    @await Component.InvokeAsync("_TestimonialComponent")
+    @await Component.InvokeAsync("FooterComponent")
+    @await Component.InvokeAsync("ScriptsComponent")
+</body>
+</html>

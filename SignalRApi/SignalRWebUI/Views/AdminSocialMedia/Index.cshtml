@@ -1,0 +1,52 @@
+﻿
+
+@model List<ResultSocialMediaDto>
+@{
+	ViewData["Title"] = "Index";
+	Layout = "~/Views/Shared/_AdminLayout.cshtml";
+	int count = 0;
+}
+<h4 class="page-title ms-3">Sosyal Medya İşlemleri</h4>
+<div class="row">
+	<div class="col-md-12">
+		<div class="card">
+			<div class="card-header">
+				<div class="card-title">Sosyal Medya Listesi</div>
+			</div>
+			<div class="card-body">
+				<div class="card-sub">
+					Sosyal Medya ile işlemleri aşağıdan gerçekleştirebilirsiniz.
+				</div>
+				<table class="table mt-3">
+					<thead>
+						<tr>
+							<th scope="col">#</th>
+							<th scope="col">Sosyal Medya Platformu</th>
+							<th scope="col">Link</th>
+							<th scope="col">İkon</th>
+							<th scope="col">Sil</th>
+							<th scope="col">Güncelle</th>
+						</tr>
+					</thead>
+					<tbody>
+						@foreach (var item in Model)
+						{
+							count++;
+							<tr>
+								<td>@count</td>
+								<td>@item.Title</td>
+								<td>@item.Url</td>
+								<td>@item.Icon</td>
+								<td><a href="/AdminSocialMedia/DeleteSocialMedia/@item.SocialMediaID/" class="btn btn-outline-danger">Sil</a></td>
+								<td><a href="/AdminSocialMedia/UpdateSocialMedia/@item.SocialMediaID/" class="btn btn-outline-warning">Düzenle</a></td>
+							</tr>
+						}
+
+
+					</tbody>
+				</table>
+				<a href="/AdminSocialMedia/CreateSocialMedia/" class="btn btn-outline-primary">Yeni Kategori Ekle</a>
+			</div>
+		</div>
+	</div>
+</div>

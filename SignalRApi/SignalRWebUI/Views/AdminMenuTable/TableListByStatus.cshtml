@@ -1,0 +1,77 @@
+﻿
+@{
+    ViewData["Title"] = "TableListByStatus";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<script src="~/lib/microsoft/signalr/dist/browser/signalr.js"></script>
+<script src="~/lib/microsoft/signalr/dist/browser/signalr.min.js"></script>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>
+
+<div class="container-fluid">
+
+	<script type="text/javascript">
+		$(document).ready(() => {
+			var connection = new signalR.HubConnectionBuilder().withUrl("https://localhost:7037/SignalRHub").build();
+
+			connection.start().then(() => {
+				setInterval(() => {
+					connection.invoke("MenuTableStatus");
+				}, 1000);
+
+			}).catch((err) => { console.log(err) });
+
+			connection.on("ReceiverMenuTableStatus", (values) => { 
+				$("#menutablelist").empty();
+				
+
+				values.forEach( (item,index)=>{
+					let menutable = "";
+					let isEmpty="";
+					let isColor="";
+					menutable += ``;
+					if(item.status==false){
+						isColor = "card-danger";
+						isEmpty = "Masa Boş";
+					}else{
+						isColor = "card-success";
+						isEmpty ="Masa Dolu";
+					}
+					menutable += `<div class="col-md-3"><div class="card card-stats ${isColor}">
+								<div class="card-body ">
+									<div class="row">
+										<div class="col-5">
+											<div class="icon-big text-center">
+												<i class="la la-certificate"></i>
+											</div>
+										</div>
+										<div class="col-7 d-flex align-items-center">
+											<div class="numbers">
+												<p class="card-category">${item.name}</p>
+												<h4 class="card-title">${isEmpty}</h4>
+											</div>
+										</div>
+									</div>
+								</div>
+									</div></div>`;
+					
+					$("#menutablelist").append(menutable);
+				});
+
+
+			});			
+		});
+	</script>
+
+
+	<h4 class="page-title">Anlık Masa Durum Sayfası</h4>
+
+	<div class="row" id="menutablelist">
+		
+			
+		
+	</div>
+</div>

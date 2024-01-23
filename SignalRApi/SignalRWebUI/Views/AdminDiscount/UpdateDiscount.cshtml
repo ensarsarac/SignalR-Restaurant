@@ -1,0 +1,44 @@
+﻿
+@model UpdateDiscountDto
+
+@{
+    ViewData["Title"] = "UpdateDiscount";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<h4 class="page-title">İndirim İşlemleri </h4>
+<div class="row">
+	<div class="col-md-12">
+		<form method="post">
+			<input type="hidden" asp-for="@Model.DiscountID" />
+		<div class="card">
+			<div class="card-header">
+					<div class="card-title">İndirim Güncelle</div>
+			</div>
+			<div class="card-body">
+				<div class="form-group mb-2">
+					<label>İndrim Başlığı: </label>
+					<input type="text" asp-for="@Model.Title" value="@Model.Title" class="form-control" >
+				</div>
+
+					<div class="form-group mb-2">
+						<label>İndirim Miktarı: </label>
+						<input type="text" asp-for="@Model.Amount" value="@Model.Amount" class="form-control">
+					</div>
+					<div class="form-group mb-2">
+						<label>İndirim Resmi: </label>
+						<input type="text" asp-for="@Model.ImageUrl" value="@Model.ImageUrl" class="form-control">
+					</div>
+
+					<div class="form-group mb-2">
+					<label>İndirim Açıklaması: </label>
+						<textarea asp-for="@Model.Description" value="@Model.Description" class="form-control">@Model.Description </textarea>
+					</div>
+
+			</div>
+			<div class="card-action">
+				<button type="submit" class="btn btn-primary">Ürün Güncelle</button>
+			</div>
+		</div>
+		</form>
+	</div>
+</div>

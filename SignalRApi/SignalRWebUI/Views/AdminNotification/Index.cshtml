@@ -1,0 +1,55 @@
+﻿
+@model List<ResultNotificationDto>
+
+@{
+	ViewData["Title"] = "Index";
+	Layout = "~/Views/Shared/_AdminLayout.cshtml";
+	int count = 0;
+}
+
+<h4 class="page-title ms-3">Bildirim İşlemleri</h4>
+<div class="row">
+<div class="col-md-12">
+	<div class="card">
+		<div class="card-header">
+				<div class="card-title">Bildirim Listesi</div>
+		</div>
+		<div class="card-body">
+			<div class="card-sub">
+					Bildirim ile işlemleri aşağıdan gerçekleştirebilirsiniz.
+			</div>
+			<table class="table mt-3">
+				<thead>
+					<tr>
+						<th scope="col">#</th>
+						<th scope="col">Açıklama</th>
+						<th scope="col">Tarih</th>
+						<th scope="col">Durum</th>
+						<th scope="col">Sil</th>
+						<th scope="col">Güncelle</th>
+						<th scope="col">Okundu İşaretle</th>
+						<th scope="col">Okunmadı İşaretle</th>
+					</tr>
+				</thead>
+				<tbody>
+						@foreach (var item in Model)
+						{
+							count++;
+							<tr>
+								<th>@count</th>
+								<td>@item.Description</td>
+								<td>@item.Date.ToShortTimeString()</td>
+								<td>@item.Status</td>
+								<td><a href="/AdminNotification/DeleteNotification/@item.NotificationID/" class="btn btn-outline-danger">Sil</a></td>
+								<td><a href="/AdminNotification/UpdateNotification/@item.NotificationID/" class="btn btn-outline-success">Düzenle</a></td>
+								<td><a href="/AdminNotification/NotificationChangeStatusByTrue/@item.NotificationID/" class="btn btn-outline-warning">Okundu</a></td>
+								<td><a href="/AdminNotification/NotificationChangeStatusByFalse/@item.NotificationID/" class="btn btn-outline-secondary">Okunmadı</a></td>
+							</tr>
+						}
+				</tbody>
+			</table>
+				<a href="/AdminNotification/CreateNotification/" class="btn btn-outline-primary">Yeni Bildirim Oluştur</a>
+		</div>
+	</div>
+</div>
+</div>

@@ -1,0 +1,297 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = SignalRWebUI
+build_property.RootNamespace = SignalRWebUI
+build_property.ProjectDir = C:\Users\Ensar\Desktop\C#\SignalRApi\SignalRWebUI\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Ensar\Desktop\C#\SignalRApi\SignalRWebUI
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/AdminAbout/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5BYm91dFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/AdminBooking/CreateBooking.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Cb29raW5nXENyZWF0ZUJvb2tpbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/AdminBooking/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Cb29raW5nXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/AdminBooking/UpdateBooking.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Cb29raW5nXFVwZGF0ZUJvb2tpbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/AdminCategory/CreateCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5DYXRlZ29yeVxDcmVhdGVDYXRlZ29yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/AdminCategory/GetCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5DYXRlZ29yeVxHZXRDYXRlZ29yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/AdminCategory/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5DYXRlZ29yeVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/AdminContact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Db250YWN0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/AdminDashboard/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5EYXNoYm9hcmRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/AdminDiscount/CreateDiscount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5EaXNjb3VudFxDcmVhdGVEaXNjb3VudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/AdminDiscount/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5EaXNjb3VudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/AdminDiscount/UpdateDiscount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5EaXNjb3VudFxVcGRhdGVEaXNjb3VudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/AdminFeature/CreateFeature.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5GZWF0dXJlXENyZWF0ZUZlYXR1cmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/AdminFeature/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5GZWF0dXJlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/AdminFeature/UpdateFeature.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5GZWF0dXJlXFVwZGF0ZUZlYXR1cmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/AdminMenuTable/CreateMenuTables.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5NZW51VGFibGVcQ3JlYXRlTWVudVRhYmxlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/AdminMenuTable/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5NZW51VGFibGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/AdminMenuTable/TableListByStatus.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5NZW51VGFibGVcVGFibGVMaXN0QnlTdGF0dXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/AdminMenuTable/UpdateMenuTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5NZW51VGFibGVcVXBkYXRlTWVudVRhYmxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/AdminNotification/CreateNotification.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Ob3RpZmljYXRpb25cQ3JlYXRlTm90aWZpY2F0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/AdminNotification/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Ob3RpZmljYXRpb25cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/AdminNotification/UpdateNotification.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Ob3RpZmljYXRpb25cVXBkYXRlTm90aWZpY2F0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/AdminProduct/CreateProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Qcm9kdWN0XENyZWF0ZVByb2R1Y3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/AdminProduct/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Qcm9kdWN0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/AdminProduct/UpdateProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Qcm9kdWN0XFVwZGF0ZVByb2R1Y3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/AdminSocialMedia/CreateSocialMedia.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Tb2NpYWxNZWRpYVxDcmVhdGVTb2NpYWxNZWRpYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/AdminSocialMedia/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Tb2NpYWxNZWRpYVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/AdminSocialMedia/UpdateSocialMedia.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Tb2NpYWxNZWRpYVxVcGRhdGVTb2NpYWxNZWRpYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/AdminStatistic/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5TdGF0aXN0aWNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/AdminTestimonial/CreateTestimonial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5UZXN0aW1vbmlhbFxDcmVhdGVUZXN0aW1vbmlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/AdminTestimonial/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5UZXN0aW1vbmlhbFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/AdminTestimonial/UpdateTestimonial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5UZXN0aW1vbmlhbFxVcGRhdGVUZXN0aW1vbmlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/Baskets/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFza2V0c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/Default/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFxBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/Default/Booking.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFxCb29raW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/Default/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/Default/OurMenu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFxPdXJNZW51LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/Message/ClientUserCount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzc2FnZVxDbGllbnRVc2VyQ291bnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/Message/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzc2FnZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/QRCode/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUVJDb2RlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/Register/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/Setting/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2V0dGluZ1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/Shared/Components/FooterComponent/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcRm9vdGVyQ29tcG9uZW50XERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/Shared/Components/HeadComponent/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcSGVhZENvbXBvbmVudFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/Shared/Components/NavbarComponent/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTmF2YmFyQ29tcG9uZW50XERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/Shared/Components/ScriptsComponent/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU2NyaXB0c0NvbXBvbmVudFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/Shared/Components/_AboutComponent/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0Fib3V0Q29tcG9uZW50XERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/Shared/Components/_BookComponent/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0Jvb2tDb21wb25lbnRcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/Shared/Components/_CarouselComponent/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0Nhcm91c2VsQ29tcG9uZW50XERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/Shared/Components/_DiscountComponent/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0Rpc2NvdW50Q29tcG9uZW50XERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/Shared/Components/_FooterComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0Zvb3RlckNvbXBvbmVudFBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/Shared/Components/_HeaderComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0hlYWRlckNvbXBvbmVudFBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/Shared/Components/_MessageComponent/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX01lc3NhZ2VDb21wb25lbnRcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/Shared/Components/_NavbarComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX05hdmJhckNvbXBvbmVudFBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/Shared/Components/_OurMenuComponent/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX091ck1lbnVDb21wb25lbnRcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/Shared/Components/_ScriptComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1NjcmlwdENvbXBvbmVudFBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/Shared/Components/_SideBarComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1NpZGVCYXJDb21wb25lbnRQYXJ0aWFsXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/Shared/Components/_SocialMediaComponent/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1NvY2lhbE1lZGlhQ29tcG9uZW50XERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/Shared/Components/_TestimonialComponent/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1Rlc3RpbW9uaWFsQ29tcG9uZW50XERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/Shared/_DefaultLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9EZWZhdWx0TGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/SignalRDefault/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lnbmFsUkRlZmF1bHRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ensar/Desktop/C\#/SignalRApi/SignalRWebUI/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-65dvzr1ubd

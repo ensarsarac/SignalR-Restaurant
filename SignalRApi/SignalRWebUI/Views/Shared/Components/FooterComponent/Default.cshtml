@@ -1,0 +1,67 @@
+﻿
+@model ResultContactDto    
+
+<footer class="footer_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 footer-col">
+                    <div class="footer_contact">
+                        <h4>
+                            Bizimle İletişime Geçin
+                        </h4>
+                        <div class="contact_link_box">
+                            <a href="">
+                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                <span>
+                                    @Model.Location
+                                </span>
+                            </a>
+                            <a href="">
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                <span>
+                                    @Model.PhoneNumber
+                                </span>
+                            </a>
+                            <a href="">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                                <span>
+                                    @Model.Mail
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 footer-col">
+                    <div class="footer_detail">
+                        <a href="" class="footer-logo">
+                            @Model.FooterTitle
+                        </a>
+                        <p>
+                            @Model.FooterDescription
+                        </p>
+                        @await Component.InvokeAsync("_SocialMediaComponent")
+                    </div>
+                </div>
+                <div class="col-md-4 footer-col">
+                    <h4>
+                    @Model.OpenHoursTitle
+
+                    </h4>
+                    <p>
+                        @Model.OpenHoursDescription
+                    </p>
+                    <p>
+                        @Model.OpenHours - @Model.CloseHours
+                    </p>
+                </div>
+            </div>
+            <div class="footer-info">
+                <p>
+                    &copy; <span id="displayYear"></span> Tüm Hakları Saklıdır. 
+                    <a href="/Default/Index/">SignalR Restoran</a><br><br>
+                    &copy; <span id="displayYear"></span> Geliştiren
+                <a href="https://www.linkedin.com/in/ensar-sarac/" target="_blank">Ensar SARAÇ</a>
+                </p>
+            </div>
+        </div>
+    </footer>

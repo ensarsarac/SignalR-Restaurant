@@ -1,0 +1,31 @@
+﻿
+@model ResultAboutDto
+
+
+<section class="about_section layout_padding">
+	<div class="container  ">
+
+		<div class="row">
+			<div class="col-md-6 ">
+				<div class="img-box">
+					<img src="~/feane-1.0.0/images/@Model.ImageUrl" alt="">
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="detail-box">
+					<div class="heading_container">
+						<h2>
+							@Model.Title
+						</h2>
+					</div>
+					<p>
+						@Model.Description
+					</p>
+					<a href="">
+						Daha Fazlasını Gör
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
