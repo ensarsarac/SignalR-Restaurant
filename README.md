@@ -82,5 +82,3 @@ Siparişler ve rezervasyonlar, admin panelinde SignalR teknolojisi kullanılarak
 
 
 
-
-
