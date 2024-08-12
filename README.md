@@ -66,7 +66,6 @@ Siparişler ve rezervasyonlar, admin panelinde SignalR teknolojisi kullanılarak
   <li>AutoMapper</li>
   <li>MailKit</li>
 </ul>
-
 ![Ekran görüntüsü 2024-01-23 170245](https://github.com/ensarsarac/SignalR-Restaurant/assets/76907308/99816cf2-0c20-42b4-9875-f5851b59cf3a)
 ![Ekran görüntüsü 2024-01-23 165836](https://github.com/ensarsarac/SignalR-Restaurant/assets/76907308/50621646-3236-4444-9522-a331c1ff5958)
 ![Ekran görüntüsü 2024-01-23 163849](https://github.com/ensarsarac/SignalR-Restaurant/assets/76907308/eb35b6d7-9ef3-4253-8ffd-af7724c8bf17)
