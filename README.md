@@ -66,15 +66,15 @@ Siparişler ve rezervasyonlar, admin panelinde SignalR teknolojisi kullanılarak
   <li>AutoMapper</li>
   <li>MailKit</li>
 </ul>
-![Ekran görüntüsü 2024-01-23 170245](https://github.com/ensarsarac/SignalR-Restaurant/assets/76907308/99816cf2-0c20-42b4-9875-f5851b59cf3a)
-![Ekran görüntüsü 2024-01-23 165836](https://github.com/ensarsarac/SignalR-Restaurant/assets/76907308/50621646-3236-4444-9522-a331c1ff5958)
-![Ekran görüntüsü 2024-01-23 163849](https://github.com/ensarsarac/SignalR-Restaurant/assets/76907308/eb35b6d7-9ef3-4253-8ffd-af7724c8bf17)
-![Ekran görüntüsü 2024-01-23 163835](https://github.com/ensarsarac/SignalR-Restaurant/assets/76907308/780249c1-43d5-466b-84cc-6db797f54cd3)
-![Ekran görüntüsü 2024-01-23 163744](https://github.com/ensarsarac/SignalR-Restaurant/assets/76907308/3d5ee251-b6af-4d70-b829-289884959988)
-![Ekran görüntüsü 2024-01-23 163717](https://github.com/ensarsarac/SignalR-Restaurant/assets/76907308/af3ee931-dc6f-4e8b-b393-4d7ce847d027)
-![Ekran görüntüsü 2024-01-23 163652](https://github.com/ensarsarac/SignalR-Restaurant/assets/76907308/bfe19490-6760-43dc-b5b9-45766f392e56)
-![Ekran görüntüsü 2024-01-23 163446](https://github.com/ensarsarac/SignalR-Restaurant/assets/76907308/d1eb8c9f-5ba8-4cec-a906-f71cdd7cb66e)
-![Ekran görüntüsü 2024-01-22 233332](https://github.com/ensarsarac/SignalR-Restaurant/assets/76907308/07cff76e-eaad-4808-a120-c92efb0ace34)
-![Ekran görüntüsü 2024-01-23 163427](https://github.com/ensarsarac/SignalR-Restaurant/assets/76907308/d6e49c23-4fa8-423e-aaf2-378d90d6885c)
-![Ekran görüntüsü 2024-01-23 170419](https://github.com/ensarsarac/SignalR-Restaurant/assets/76907308/07299ac2-c140-4842-8cc1-6cdaae935b6b)
-![Ekran görüntüsü 2024-01-23 170351](https://github.com/ensarsarac/SignalR-Restaurant/assets/76907308/16e273b6-7733-48d1-84e6-937f832dd3e1)
+<img src="https://github.com/ensarsarac/SignalR-Restaurant/assets/76907308/99816cf2-0c20-42b4-9875-f5851b59cf3a)" />
+<img src="https://github.com/ensarsarac/SignalR-Restaurant/assets/76907308/50621646-3236-4444-9522-a331c1ff5958)" />
+<img src="https://github.com/ensarsarac/SignalR-Restaurant/assets/76907308/eb35b6d7-9ef3-4253-8ffd-af7724c8bf17)" />
+<img src="https://github.com/ensarsarac/SignalR-Restaurant/assets/76907308/780249c1-43d5-466b-84cc-6db797f54cd3)" />
+<img src="https://github.com/ensarsarac/SignalR-Restaurant/assets/76907308/3d5ee251-b6af-4d70-b829-289884959988)" />
+<img src="https://github.com/ensarsarac/SignalR-Restaurant/assets/76907308/af3ee931-dc6f-4e8b-b393-4d7ce847d027)" />
+<img src="https://github.com/ensarsarac/SignalR-Restaurant/assets/76907308/bfe19490-6760-43dc-b5b9-45766f392e56)" />
+<img src="https://github.com/ensarsarac/SignalR-Restaurant/assets/76907308/d1eb8c9f-5ba8-4cec-a906-f71cdd7cb66e)" />
+<img src="https://github.com/ensarsarac/SignalR-Restaurant/assets/76907308/07cff76e-eaad-4808-a120-c92efb0ace34)" />
+<img src="https://github.com/ensarsarac/SignalR-Restaurant/assets/76907308/d6e49c23-4fa8-423e-aaf2-378d90d6885c)" />
+<img src="https://github.com/ensarsarac/SignalR-Restaurant/assets/76907308/07299ac2-c140-4842-8cc1-6cdaae935b6b)" />
+<img src="https://github.com/ensarsarac/SignalR-Restaurant/assets/76907308/16e273b6-7733-48d1-84e6-937f832dd3e1)" />
